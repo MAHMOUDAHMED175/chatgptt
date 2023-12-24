@@ -102,6 +102,7 @@ class _ChatPageState extends State<ChatPage> {
             ChatMessage(
                 user: _gptChatUser,
                 createdAt: DateTime.now(),
+                //1
                 text: element.message!.content),
           );
         });
