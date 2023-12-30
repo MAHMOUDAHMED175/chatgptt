@@ -22,6 +22,7 @@ class _ChatPageState extends State<ChatPage> {
     ),
     enableLog: true,
   );
+  //1
 
   final ChatUser _currentUser =
       ChatUser(id: '1', firstName: 'Mahmoud', lastName: 'Ahmed');
